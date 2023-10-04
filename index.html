@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Carlos Acosta - Portafolio</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Carlos <span>Acosta</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#intro" class="nav__link">Intro</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#servicios" class="nav__link">Servicios</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#proyectos" class="nav__link">Proyectos</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contacto" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <!--Cerrar Botón-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!--Botón Palanca-->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <section class="home section" id="home">                            <!-----HOME----->
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            Hola, <span>Soy</span>
+                        </h3>
+
+                        <h1 class="home__title">Carlos Acosta</h1>
+
+                        <h3 class="home__education">Desarrollador Front End</h3>
+
+                        <p class="home__description">
+                            Con conocimiento en desarrollo web, hago los mejores proyectos resultando en calidad de trabajo.
+                        </p>
+
+                        <a href="#contacto" class="button">Hablemos</a>
+                    </div> <!--.home__data-->
+
+                    <div class="home__social">
+                        <a href="https://www.github.com/Carlosaac23" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/carlos-acosta-7aa448263/" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/carlosaac23/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div> <!--.home__social-->
+                </div>
+
+                <div class="home__imagen">
+                    <svg class="home__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBlob" mask-type="alpha">
+                           <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                        </mask>
+                        <g mask="url(#maskBlob)">
+                           <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                           170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                           447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                           587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                           438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                     
+                           <rect x="37" width="476" height="630" fill="url(#pattern0)"/></g>
+                           <rect x="37" width="476" height="300" fill="url(#pattern1)"/><defs>
+                           <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                           <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/></pattern>
+                           <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                           <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/></pattern>
+                     
+                           <!-- Insert your profile (recommended size: 640 x 940) -->
+                           <image class="home__img" id="imageBlob" href="./IMG/perfil.png"/>
+                        </defs>
+                     </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro section" id="intro">                         <!-----INTRO----->
+            <div class="intro__container container grid">
+                <div class="intro__data">
+                    <h3 class="intro__subtitle">
+                        Mi <span>Intro</span>
+                    </h3>
+
+                    <h2 class="section__title">
+                        Sobre mí
+                    </h2>
+
+                    <p class="intro__description">
+                        Un apasionado desarrollador web con experiencia en diseño y desarrollo de sitios web creativos y funcionales. Me encanta enfrentar nuevos desafíos y buscar soluciones innovadoras para brindar experiencias web excepcionales. Si estás buscando un profesional comprometido, proactivo y con habilidades técnicas sólidas, ¡has llegado al lugar correcto!.
+                    </p>
+
+                    <a href="#contacto" class="button">Contactame</a>
+                </div>
+
+                <div class="intro__imagen">
+                    <svg class="intro__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBorder" mask-type="alpha">
+                           <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                           171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                           448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                           270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                           439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black"/>
+                        </mask>
+                        <g mask="url(#maskBorder)">
+                           <rect x="37" width="476" height="630" fill="url(#pattern2)"/>
+                           
+                           <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                           192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                           580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                           40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                           175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black" stroke-width="10"/></g>
+                           <rect x="37" width="476" height="300" fill="url(#pattern3)"/><defs>
+                           <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                           <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/></pattern>
+                           <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                           <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+                           </pattern>
+                     
+                           <!-- Insert your profile (recommended size: 640 x 940) -->
+                           <image class="intro__img" id="imageBorder" href="./IMG/perfil.png"/>
+                        </defs>
+                     </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="habilidades section">                           <!-----HABILIDADES----->
+            <div class="habilidades__container container grid">
+                <div class="habilidades__data">
+                    <h3 class="section__subtitle">
+                        Mejores <span>Habilidades</span>
+                    </h3>
+
+                    <h2 class="section__title">Mis habilidades</h2>
+
+                    <p class="habilidades__description">
+                        Conoce a fondo qué habilidades tengo y desempeño, para desarrollar los proyectos para ti.
+                    </p>
+
+                    <a href="#proyectos" class="button">Mis proyectos</a>
+                </div>
+
+                <div class="habilidades__content">
+                    <ol class="habilidades__group">
+                        <li class="habilidades__item">HTML & CSS</li>
+                        <li class="habilidades__item">JavaScript</li>
+                        <li class="habilidades__item">PHP</li>
+                        <li class="habilidades__item">React</li>
+                    </ol>
+
+                    <ol class="habilidades__group" start="5">
+                        <li class="habilidades__item">Git & GitHub</li>
+                        <li class="habilidades__item">MySQL</li>
+                        <li class="habilidades__item">Node js</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicios section" id="servicios">                     <!-----SERVICIOS----->
+            <h3 class="section__subtitle">
+                Mis <span>Servicios
+            </h3>
+
+            <h2 class="section__title">
+                Lo que hago
+            </h2>
+
+            <div class="servicios__container container grid">
+                <article class="servicios__card">
+                    <i class="ri-layout-3-line servicios__icon"></i>
+
+                    <h2 class="servicios__title">Desarrollo Web</h2>
+
+                    <p class="servicios__description">
+                        Desarrollo de páginas web personalizadas. Usando tecnologías actuales y librerias del campo laboral.
+                    </p>
+                </article>
+
+                <article class="servicios__card">
+                    <i class="ri-global-line servicios__icon"></i>
+
+                    <h2 class="servicios__title">AJAX</h2>
+
+                    <p class="servicios__description">
+                        Tengo un conocimiento básico en AJAX, lo que me permite crear interacciones en tiempo real en aplicaciones web para una experiencia de usuario más dinámica y eficiente.
+                    </p>
+                </article>
+
+                <article class="servicios__card">
+                    <i class="ri-computer-line servicios__icon"></i>
+
+                    <h2 class="servicios__title">Desarrollo Front-End</h2>
+
+                    <p class="servicios__description">
+                        Además del diseño, tengo experiencia en desarrollo front-end utilizando tecnologías como JavaScript para crear interacciones dinámicas.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="proyectos section" id="proyectos">                     <!-----PROYECTOS----->
+            <h3 class="section__subtitle">
+                Mis <span>Trabajos</span>
+            </h3>
+
+            <h2 class="section__title">
+                Proyectos Recientes
+            </h2>
+
+            <div class="proyectos__container container grid">
+                <article class="proyectos__card">
+                    <img src="./IMG/fondo.jpg" alt="proyecto 1" class="proyectos__img">
+
+                    <div class="proyectos__modal">
+                        <span class="proyectos__subtitle">Web</span>
+
+                        <h2 class="proyectos__title">Blog Noticias</h2>
+
+                        <a href="#" class="proyectos__button">
+                            Échale un vistazo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article> <!--.proyectos__card-->
+
+                <article class="proyectos__card">
+                    <img src="./IMG/fondo.jpg" alt="proyecto 2" class="proyectos__img">
+
+                    <div class="proyectos__modal">
+                        <span class="proyectos__subtitle">Web</span>
+
+                        <h2 class="proyectos__title">Sitio Freelancer</h2>
+
+                        <a href="#" class="proyectos__button">
+                            Échale un vistazo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article> <!--.proyectos__card-->
+
+                <article class="proyectos__card">
+                    <img src="./IMG/fondo.jpg" alt="proyecto 3" class="proyectos__img">
+
+                    <div class="proyectos__modal">
+                        <span class="proyectos__subtitle">Web</span>
+
+                        <h2 class="proyectos__title">Roco's Shop</h2>
+
+                        <a href="#" class="proyectos__button">
+                            Échale un vistazo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article> <!--.proyectos__card-->
+
+                <article class="proyectos__card">
+                    <img src="./IMG/fondo.jpg" alt="proyecto 4" class="proyectos__img">
+
+                    <div class="proyectos__modal">
+                        <span class="proyectos__subtitle">Web</span>
+
+                        <h2 class="proyectos__title">BlogDeCafé</h2>
+
+                        <a href="#" class="proyectos__button">
+                            Échale un vistazo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article> <!--.proyectos__card-->
+
+                <article class="proyectos__card">
+                    <img src="./IMG/fondo.jpg" alt="proyecto 5" class="proyectos__img">
+
+                    <div class="proyectos__modal">
+                        <span class="proyectos__subtitle">Web</span>
+
+                        <h2 class="proyectos__title">BMW Website</h2>
+
+                        <a href="https://bmw-one.vercel.app/" class="proyectos__button">
+                            Échale un vistazo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article> <!--.proyectos__card-->
+
+                <article class="proyectos__card">
+                    <img src="./IMG/fondo.jpg" alt="proyecto 6" class="proyectos__img">
+
+                    <div class="proyectos__modal">
+                        <span class="proyectos__subtitle">App Web</span>
+
+                        <h2 class="proyectos__title">Encriptador de texto</h2>
+
+                        <a href="#" class="proyectos__button">
+                            Échale un vistazo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article> <!--.proyectos__card-->
+            </div>
+        </section>
+
+        <section class="contacto section" id="contacto">                       <!-----CONTACTO----->
+            <h3 class="section__subtitle">
+                Ponte en <span>Contacto</span>
+            </h3>
+
+            <h2 class="section__title">
+                Contactame
+            </h2>
+
+            <div class="contacto__container container grid">
+                <form action="" class="contacto__form" id="contacto-form">
+                    <div class="contacto__group">
+                        <input type="text" name="user_name" required placeholder="Introduce tu nombre" class="contacto__input">
+                        <input type="email" name="user_email" required placeholder="Introduce tu E-mail" class="contacto__input">
+                    </div>
+
+                    <textarea name="user_project" required placeholder="Introduce tu mensaje" class="contacto__input"></textarea>
+
+                    <p class="contacto__message" id="contacto-message"></p>
+
+                    <button type="submit" class="button contacto__button">
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">                                                     <!-----FOOTER----->
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">
+                    Carlos <span>Acosta</span>
+                </h1>
+
+                <h2 class="footer__education">
+                    Desarrollador Front End
+                </h2>
+            </div>
+
+            <div class="footer__social">
+                <a href="https://www.github.com/Carlosaac23" target="_blank" class="footer__social-link">
+                    <i class="ri-github-line"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/carlos-acosta-7aa448263/" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a href="https://www.instagram.com/carlosaac23/" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+            </div>
+
+            <span class="footer__copy">
+                &#169; Copyright Carlos Acosta. Derechos reservados
+            </span>
+        </div>
+    </footer>
+
+
+    <!--SCROLL UP-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--SCROLLREVEAL-->
+    <script src="./JS/scrollreveal.min.js"></script>
+    <!--EMAIL JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--Main JS-->
+    <script src="./JS/main.js"></script>
+    
+</body>
+</html>
